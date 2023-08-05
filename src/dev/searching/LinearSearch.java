@@ -1,5 +1,5 @@
 // Linear Search or Sequential Search
-
+package dev.harini;
 import java.io.*;
 
 /*
