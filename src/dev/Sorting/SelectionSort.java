@@ -7,6 +7,8 @@ Average case: O(n^2)
 Worst case: O(n^2)
 Stable: No
 In-place: Yes
+Adaptive: No
+Online: No
 Rarely used, insertion sort can be preferred over selection sort as it is faster.
 Selection sort is used when the array is almost sorted or when the array is small or array is sorted in reverse order.
  */
