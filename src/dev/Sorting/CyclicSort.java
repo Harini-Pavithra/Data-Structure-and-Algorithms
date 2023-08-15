@@ -7,6 +7,8 @@ Average case: O(n)
 Worst case: O(n)
 Stable: No
 In-place: Yes
+Online: No
+Adaptive: No
 One pass sort/ one loop sort
 Used when the array contains elements in the range 1 to n and the elements are distinct.
  */
