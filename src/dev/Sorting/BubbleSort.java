@@ -8,6 +8,7 @@ Worst case: O(n^2)
 Stable: Yes
 In-place: Yes
 Adaptive: Yes
+Online: Yes
 Rarely used, insertion sort can be preferred over bubble sort as it is faster.
 Bubble sort is used when the array is almost sorted or when the array is small, or array is sorted in reverse order.
 
