@@ -17,7 +17,7 @@ public class SelectionSort {
     public static int[] selectionSort(int[] arr){
         int length = arr.length;
         // Find the max/min element and replace it with last/first element
-        for(int i=0;i<length-1;i++){
+        for(int i=0;i<length;i++){
             int last = length-1-i;
             int max_index = 0;
             for(int j=1;j<=last;j++){
