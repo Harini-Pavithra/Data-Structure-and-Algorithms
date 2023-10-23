@@ -32,16 +32,16 @@ public class BubbleSort {
         int length = arr.length-1;
         for(int i=0;i<length;i++){
             boolean swap = false;
-            for(int j=i+1;j<length-i;j++){
+            for(int j=i;j<length-i;j++){
                 if(arr[j] < arr[j-1]){
                     swap = true;
                     // Swapping adjacent elements if they are in wrong order
                     swapElements(arr, j, j-1);
                 }
+                }
                 // If no swap is done in the inner loop, it means the array is sorted
                 if(!swap){
                     break;
-                }
             }
         }
         return arr;
